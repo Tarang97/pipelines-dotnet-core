@@ -21,3 +21,5 @@ steps:
     azureSubscription: 'azsvcconnection'
     appName: 'azdevopspipeline'
     package: $(System.DefaultWorkingDirectory)/**/*.zip
+
+- task: PublishBuildArtifacts@1
